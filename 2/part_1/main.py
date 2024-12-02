@@ -41,7 +41,7 @@ def main():
     for line in lines:
         if isLineSafe(line):
             safe_report_count += 1
-    print(fr'safe report count: {safe_report_count}')
+    print(f'safe report count: {safe_report_count}')
     return True
 
 if __name__ == '__main__':
